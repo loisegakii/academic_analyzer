@@ -1,4 +1,4 @@
-# scraper.py
+
 from scholarly import scholarly
 
 def scrape_scholar(keyword, limit=10):
