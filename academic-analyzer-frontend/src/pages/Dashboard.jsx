@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -21,8 +20,9 @@ export default function Home() {
             Your gateway to smart research discovery. Analyze academic trends using AI-powered topic modeling. Clean UI, deep insights.
           </p>
 
+          {/* ✅ Redirect to Sign Up */}
           <Link
-            to="/papers"
+            to="/signup"
             className="inline-block bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition-all duration-300"
           >
             🔍 Get Started
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Modern Footer */}
       <footer className="bg-black text-gray-600 text-sm text-center py-4 border-t border-gray-800">
-        © {new Date().getFullYear()} Academic Analyzer. Built with 💙 by Open Research Dev.
+        © {new Date().getFullYear()} Academic Analyzer. Built with 💙 by Loise Dev.
       </footer>
     </div>
   );
